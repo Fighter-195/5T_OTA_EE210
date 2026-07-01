@@ -1,0 +1,22 @@
+# File Created by ee613_2024 at Wed Jan 31 13:03:52 2024
+# assisted by CdsLibEditor
+# File Created by  at Fri Feb 17 19:18:04 2023
+# assisted by CdsLibEditor
+# File Created by rsashwinkumar at Mon Apr  9 23:06:02 2018
+# assisted by CdsLibEditor
+###########################################################################################
+#Basic libraries
+###########################################################################################
+SOFTINCLUDE /root/cad/IC/share/cdssetup/cds.lib
+DEFINE pllLib /root/cad/IC/tools.lnx86/dfII/samples/artist/pllLib
+DEFINE solutions /root/cad/IC/tools.lnx86/dfII/samples/artist/solutions
+DEFINE training /root/cad/IC/tools.lnx86/dfII/samples/artist/training
+DEFINE sample /root/cad/IC/tools.lnx86/dfII/samples/artist/sample
+###########################################################################################
+
+DEFINE gpdk045 /home/vlsi_IITK/GPDK/gpdk045_v_6_0/gpdk045
+DEFINE gpdk180 /home/vlsi_IITK/GPDK/gpdk180_v3.3/libs.oa22/gpdk180
+#Removed by ddDeleteObj: DEFINE testlib /home/vlsi_IITK/cadence_project/testlib
+DEFINE avTech /root/cad/ASSURA41_618/tools.lnx86/assura/etc/avtech/avTech
+DEFINE parth_project1 /home/vlsi_IITK/cadence_project/parth_project1
+#Removed by ddDeleteObj: DEFINE Test_Transistor /home/vlsi_IITK/cadence_project/Test_Transistor

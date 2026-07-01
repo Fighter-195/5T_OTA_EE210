@@ -1,0 +1,61 @@
+'(nil version 1.0 bBox ((0 38) (598 626)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+printInfoDpl->expTable->waves = (let
+(tmp1)
+tmp1 = "OP(\"/V7\" \"??\") = ?"
+list(tmp1)
+)
+printInfoDpl->expTable->origWaves = (let
+(tmp1)
+tmp1 = "OP(\"/V7\" \"??\") = ?"
+list(tmp1)
+)
+printInfoDpl->expTable->expressions = nil
+printInfoDpl->expTable->aliases = nil
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 6
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "non wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2)
+tmp2 = "OP(\"/V7\" \"??\") = ?"
+list(tmp1 tmp2)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 14
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = nil
+printInfoDpl->waveNameList = nil
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/home/vlsi_IITK/simulation_data/OTA_5T_210__deadlinesubmission_very_end/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/home/vlsi_IITK/simulation_data/OTA_5T_210__deadlinesubmission_very_end/spectre"
+printInfoDpl->context->dataDir = "/home/vlsi_IITK/simulation_data/OTA_5T_210__deadlinesubmission_very_end/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+printInfoDpl->context->simData = nil
+printInfoDpl->context->simulator = nil
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/home/vlsi_IITK/cadence_project/parth_project1/OTA_5T_210__deadlinesubmission_very_end/state_submission/printSetup.state"
+printInfoDpl->saveNeeded = nil

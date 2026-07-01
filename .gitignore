@@ -1,0 +1,15 @@
+# Cadence / Virtuoso lock & transient files
+*.cdslck
+*.cdslck.*
+.cadence/
+.simrc
+*.log
+*.oa.bak
+panel.*.tmp
+
+# OS / editor
+.DS_Store
+__MACOSX/
+Thumbs.db
+.vscode/
+.idea/
