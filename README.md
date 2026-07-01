@@ -1,11 +1,11 @@
-# Constant-g<sub>m</sub> 5T-OTA — 10 mS Target (EE210 Analog Electronics, Project 2)
+# Constant-g<sub>m</sub> 5T-OTA — 10 mS Target (EE210 Analog Electronics Course Project)
 
 A fully differential **5-transistor Operational Transconductance Amplifier (OTA)** designed in a
 **180 nm CMOS** process (GPDK180, Cadence Virtuoso), targeting a transconductance of
 **$g_m = 10$ mS with less than 1 % variation over −20 °C to +100 °C**.
 
 > **Author:** Parth Dhamija (Roll No. 240733) · Department of Electrical Engineering, IIT Kanpur
-> **Course:** EE210 — Analog Electronics · **Project 2:** Constant-$g_m$ Bias (5T-OTA, 10 mS target)
+> **Course:** EE210 — Analog Electronics · **Course Project:** Constant-$g_m$ Bias (5T-OTA, 10 mS target)
 > **Result:** target $g_m$ held to **< 0.1 % error** across the full temperature range.
 
 ---
