@@ -1,4 +1,4 @@
-# Constant-$g_m$ 5T-OTA — 10 mS Target (EE210 Analog Electronics, Project 2)
+# Constant-g<sub>m</sub> 5T-OTA — 10 mS Target (EE210 Analog Electronics, Project 2)
 
 A fully differential **5-transistor Operational Transconductance Amplifier (OTA)** designed in a
 **180 nm CMOS** process (GPDK180, Cadence Virtuoso), targeting a transconductance of
@@ -33,7 +33,7 @@ previous one.
 | **3 — Optimized bias scaling** | Beta-multiplier ratio **$K$ raised 4 → 16**, plus a bias-distribution / mirror network into the OTA | Larger, more stable $R_s$ while keeping 10 mS → lower sensitivity to resistor variation | Residual drift further reduced; OTA input pair ≈ flat at 10 mS |
 | **4 — Full integration + real CMFB** | Ideal VCVS replaced by a transistor-level **DDA-based CMFB** (differential-difference amplifier, non-loading) | A physically realizable design that regulates output common-mode without resistively loading (and degrading) the output | **< 1 % $g_m$ variation**, stable operation, high output impedance |
 
-### Key idea 1 — Beta-multiplier constant-$g_m$ bias
+### Key idea 1 — Beta-multiplier constant-g<sub>m</sub> bias
 
 A self-biased loop (symmetric PMOS mirror + asymmetric NMOS pair of ratio $K$, with source
 degeneration resistor $R_s$) forces:
@@ -43,7 +43,7 @@ $$g_m = \frac{2}{R_s}\left(1 - \frac{1}{\sqrt{K}}\right)$$
 Because $g_m$ is pinned to $R_s$ — a resistor, which is far more temperature-stable than
 transistor parameters — the mobility-driven drift is largely cancelled.
 
-### Key idea 2 — Scaling $K$ to trade for a bigger, more stable $R_s$
+### Key idea 2 — Scaling K to trade for a bigger, more stable R<sub>s</sub>
 
 The sensitivity of $g_m$ to $R_s$ is
 
